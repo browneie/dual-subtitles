@@ -11,6 +11,8 @@ languages from OpenSubtitles, merges them line by line, and gives Stremio one co
 2. Start the addon:
    - **Mac:** double-click `start-mac.command`. The first time, macOS may block it: right-click it, choose **Open**, then **Open** again.
    - **Windows:** double-click `start-windows.bat`.
+   - **Linux:** run `./start-linux.sh` in a terminal inside this folder (or double-click it, if your file manager runs scripts).
+     If it says permission denied, run `chmod +x start-linux.sh` first. Node.js 18+ is needed: older distro packages may be too old, so check with `node -v`.
    - **Or from a terminal**, inside this folder: `node server.js`
 
 A window opens saying the addon is running. Leave it open while you watch.
